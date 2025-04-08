@@ -1,24 +1,18 @@
 import "./style.css";
-import javascriptLogo from "./javascript.svg";
-import viteLogo from "/vite.svg";
-import { setupCounter } from "./counter.js";
 
 document.querySelector("#app").innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>awdawdawdw</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
+  <div class="container">
+    <h1>Vite boilerplate prosjekt, og deployment til Nett gjennom Vercel. </h1>
+
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/o-Hn-J0jNRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
+
+    <div class="github-link">
+      <p>sjekk ut github repositorien for prosjektet, og sjekk ut readme.md i repoen for en mer definitiv og definert veiledning om hele prosessen. </p>
+      <a href="https://github.com/raincuhh/mitt-vite-prosjekt" target="_blank">
+        se github repository.
+      </a>
+    </div>
   </div>
 `;
-
-setupCounter(document.querySelector("#counter"));
