@@ -1,5 +1,5 @@
 
-# Veledning for opprettelsen av Vite boilerplate prosjekt, og deployment til Nett gjennom Vercel.
+# Veiledning for opprettelsen av Vite boilerplate prosjekt, og deployment til Nett gjennom Vercel.
 
 ## Forutsetninger
 
